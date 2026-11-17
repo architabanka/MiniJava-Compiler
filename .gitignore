@@ -1,0 +1,24 @@
+# Compiled class files
+*.class
+
+# C/C++ build artifacts
+*.o
+*.out
+*.exe
+a.out
+*.tab.c
+*.tab.h
+lex.yy.c
+
+# OS & Editor generated files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*~
+
+# Archives
+*.tar.gz
+*.zip
+*.tar
