@@ -6,7 +6,7 @@ Built as part of CS3300 (Compiler Design) at IIT Madras.
 
 ---
 
-## 🏗️ Compiler Architecture & Pipeline
+## Compiler Architecture & Pipeline
 
 The compilation pipeline is structured into six discrete passes:
 
@@ -32,7 +32,7 @@ The compilation pipeline is structured into six discrete passes:
  Executable MIPS Assembly (.s)
 ```
 
-### Pipeline Overview:
+### Overview:
 
 1. **`01_macro_to_minijava` (Lexer & Parser in Flex/Bison):**
    - Parses MacroJava macros (statement and expression macros).
@@ -56,9 +56,9 @@ The compilation pipeline is structured into six discrete passes:
 
 ---
 
-## 🚀 Building & Running
+## To Run
 
-### Prerequisites
+### Requirements
 - `Java JDK 8+`
 - `flex` and `bison` (for Stage 1)
 - `SPIM` or `MARS` (MIPS simulator)
@@ -90,10 +90,5 @@ java P5 < input.miniRA > output.s
 spim -file output.s
 ```
 
----
 
-## 🛠️ Tech Stack & Tools
-- **Languages:** Java, C
-- **Compiler Construction Tools:** Flex, Bison, JavaCC, JTB (Java Tree Builder)
-- **Target Architecture:** MIPS32 Assembly (SPIM simulator)
 
